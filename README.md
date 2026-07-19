@@ -28,9 +28,9 @@ End-to-end sales analysis of the Superstore dataset (2014–2017), performed acr
 
 DAX measures built: `Total Sales`, `Total Profit`, `Total Orders`, `Average Order Value (AOV)`, `Profit Margin %`, and `YoY Growth` (using `SAMEPERIODLASTYEAR`).
 
-![Power BI Dashboard](Screenshots/superstore.png)
+![Power BI Dashboard](Screenshot/superstore.png)
 
-📁 File: [`PowerBI/Superstore_Dashboard.pbix`](PowerBI/Superstore_Dashboard.pbix)
+📁 File: [`Power BI/super-store-sales.pbix`](Power%20BI/super-store-sales.pbix)
 
 ---
 
@@ -38,9 +38,9 @@ DAX measures built: `Total Sales`, `Total Profit`, `Total Orders`, `Average Orde
 
 Built using Pivot Tables, Pivot Charts, and Slicers for interactive filtering by region and category.
 
-![Excel Dashboard](Screenshots/excel_dashboard.png)
+![Excel Dashboard](Screenshot/excel_dashboard.png)
 
-📁 File: [`Excel/Superstore_Dashboard.xlsx`](Excel/Superstore_Dashboard.xlsx)
+📁 File: [`Excel/Sample - Superstore.xlsx`](Excel/Sample%20-%20Superstore.xlsx)
 
 ---
 
@@ -49,42 +49,43 @@ Built using Pivot Tables, Pivot Charts, and Slicers for interactive filtering by
 Queries covering monthly trends, category-wise profitability, regional ranking (window functions), customer segment analysis, and loss-making order detection.
 
 **Monthly Revenue Trend**
-![Monthly Trend](Screenshots/mysql_monthly_trend.png)
+![Monthly Trend](Screenshot/mysql_monthly_trend.png)
 
 **Category-wise Profit Margin**
-![Category Profit Margin](Screenshots/mysql_category_profit_margin.png)
+![Category Profit Margin](Screenshot/mysql_category_profit_margin.png)
 
 **Regional Sales Ranking (Window Function - RANK)**
-![Region Ranking](Screenshots/mysql_region_ranking_window_function.png)
+![Region Ranking](Screenshot/mysql_region_ranking_window_function.png)
 
 **Customer Segment Analysis (DENSE_RANK + CASE)**
-![Segment Analysis](Screenshots/mysql_segment_analysis_dense_rank.png)
+![Segment Analysis](Screenshot/mysql_segment_analysis_dense_rank.png)
 
 **Top Loss-Making Orders**
-![Loss Making Orders](Screenshots/mysql_loss_making_orders.png)
+![Loss Making Orders](Screenshot/mysql_loss_making_orders.png)
 
-📁 File: [`MySQL/superstore_queries.sql`](MySQL/superstore_queries.sql)
+📁 File: [`SQL/superstore_queries.sql`](SQL/superstore_queries.sql)
 
 ---
 
 ## 📂 Project Structure
+
 Superstore-Sales-Analysis/
 │
 ├── README.md
-├── MySQL/
+├── SQL/
 │   └── superstore_queries.sql
 ├── Excel/
-│   └── Superstore_Dashboard.xlsx
-├── PowerBI/
-│   └── Superstore_Dashboard.pbix
-└── Screenshots/
-├── powerbi_dashboard.png
+│   └── Sample - Superstore.xlsx
+├── Power BI/
+│   └── super-store-sales.pbix
+└── Screenshot/
+├── superstore.png
 ├── excel_dashboard.png
 ├── mysql_monthly_trend.png
 ├── mysql_category_profit_margin.png
 ├── mysql_region_ranking_window_function.png
 ├── mysql_segment_analysis_dense_rank.png
-└── mysql_loss_making_orders.png 
+└── mysql_loss_making_orders.png
 
 ---
 
