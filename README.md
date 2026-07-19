@@ -28,7 +28,7 @@ End-to-end sales analysis of the Superstore dataset (2014–2017), performed acr
 
 DAX measures built: `Total Sales`, `Total Profit`, `Total Orders`, `Average Order Value (AOV)`, `Profit Margin %`, and `YoY Growth` (using `SAMEPERIODLASTYEAR`).
 
-![Power BI Dashboard](Screenshots/powerbi_dashboard.png)
+![Power BI Dashboard](Screenshots/superstore.png)
 
 📁 File: [`PowerBI/Superstore_Dashboard.pbix`](PowerBI/Superstore_Dashboard.pbix)
 
